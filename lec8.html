@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+      <label for="name"> Name</label>
+      <!-- lable is use for selecting the cursor -->
+      <div>
+        <input type="text" name="myname" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="role"> Role</label>
+        <input type="text" name="myrole" id="role" />
+      </div>
+      <br />
+      <div>
+        <label for="email"> Email</label>
+        <input type="text" name="myemail" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="mydate" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="bonus"> Bonus</label>
+        <input type="number" name="mybonus" id="bonus" />
+      </div>
+      <br />
+      <div>
+        Are you eligible ?:<input type="checkbox" name="myeligibility" />
+      </div>
+      <br />
+      <div>
+        Gender:Male<input type="radio" name="mygender" /> FeMale<input
+          type="radio"
+          name="mygender"
+        />
+        Other<input type="radio" name="mygender" />
+      </div>
+      <br />
+      <div>
+        Write about your self:<textarea
+          name="myText"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+          <option value="Indica">Indica</option>
+          <option value="XUV">XUV</option>
+          <option value="Ambesdor">Ambesdor</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+  </body>
+</html>
