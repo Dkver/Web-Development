@@ -1,0 +1,13 @@
+.red{  
+    /* dot is used for class */
+    color: red;
+   }
+   
+   .bg-yellow{
+       background-color: yellow;
+   }
+   
+   #firstdiv{
+        /* # is used for ID */
+        background-color: red; 
+   }
